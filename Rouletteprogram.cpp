@@ -10,15 +10,13 @@ int main(){
     char playAgain;
 
     do{
-        
         int playerC;
         int playerN;
         int playerColor;
         float bet;
         int computerN = rand() % 37;
         int computerC = rand() % 2;
-
-
+        
         std::cout << "*******************************" << endl;
         std::cout << "  Welcome to Roulette program" << endl;
         std::cout << "*******************************" << endl << endl;
@@ -30,8 +28,7 @@ int main(){
         std::cout << "2) Choose a color(0 or 1)" <<endl ;
         std::cout << "0.Red numbers are : 1, 3, 5, 7, 9, 12, 14, 16, 18, 19, 21, 23, 25, 27, 30, 32, 34, 36" << endl;
         std::cout << "1.Black numbers are : 2, 4, 6, 8, 10, 11, 13, 15, 17, 20, 22, 24, 26, 28, 29, 31, 33, 35" << endl << endl;
-
-
+        
         std::cout << "Please select the type of bet you want: ";
         std::cin >> playerC;
 
